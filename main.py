@@ -19,15 +19,15 @@ print("\n")
 username= input("Introduce your username: ")
 password= input("Introduce your password: ")
 
-if username == (3 <= len(username) < 10): 
+if (3 <= len(username) < 10): 
   print("True")
 else:
   print("False")
-  
-if password == ("TOKIO" or password == "PYTHON"):
+
+if password == ("PYTHON") or password == ("TOKIO"):
   print("True")
 else: 
-  print("False");
+  print("False")
 
 
 
