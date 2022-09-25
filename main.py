@@ -34,15 +34,21 @@ else:
 
 #EJERCICIO 4
 
-num1=5
-num2=13
+num1= 5
+num2= 12
 
 num1 +=1
 print(num1)
+print("\n")
 
 num2 +=2
 print(num2)
+print("\n")
 
 num1= num1*3
 print(num1)
+print("\n")
+
+num2= (num2/2)
+print(num2)
 
