@@ -34,8 +34,8 @@ else:
 
 #EJERCICIO 4
 
-num1= 5
-num2= 12
+num1= int(input("Introduce el primer número:"))
+num2= int(input("Introduce el segundo número:"))
 
 num1 +=1
 print(num1)
